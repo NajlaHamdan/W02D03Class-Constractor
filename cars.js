@@ -7,7 +7,7 @@ function cars(make, model, colour, image, registrationNumber, price){
         registrationNumber,
         price,
         editPrice(newPrice){
-             return price=newPrice;
+             return this.price=newPrice;
         },
         showAll(){
             return `all the details about ${this.make},${this.model},${this.colour},${this.image},${this.registrationNumber},${this.price}`
